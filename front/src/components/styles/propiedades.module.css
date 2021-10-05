@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box ;
+  
+}
+
+
+.container {
+    margin: 77px 50px 50px 100px;
+    overflow: hidden;
+    display: grid;
+    
+    grid-template-columns:  33% 33% 33%;
+    grid-gap: 40px;
+}
+
+.etiqueta{
+    display: grid;
+    justify-content: center;
+    align-items:center;
+  margin-top: auto;
+}
